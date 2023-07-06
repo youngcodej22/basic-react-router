@@ -1,0 +1,32 @@
+body {
+  background-color: #76fff6;
+}
+
+#root {
+  margin: 0 auto;
+}
+
+.container {
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  background-color: #ff8849;
+}
+
+li {
+  padding: 20px 40px;
+  font-weight: bold;
+  color: #fff;
+  list-style: none;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #fe6a6a;
+}
+
+li.active {
+  background-color: #ff3b3b;
+}
